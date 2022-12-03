@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "476693625733",
+    "project_id": "chat-d381d",
+    "storage_bucket": "chat-d381d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476693625733:android:b2719105ff22ce062d22ec",
+        "android_client_info": {
+          "package_name": "com.murat.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476693625733-fg9grsg69ucrdh76mvtejm82u81l587o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARIHJM7vM01oZVNROCQzRh-Uc5btxo1m8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476693625733-fg9grsg69ucrdh76mvtejm82u81l587o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
