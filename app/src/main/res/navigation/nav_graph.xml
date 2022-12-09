@@ -3,16 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/chatsFragment">
+    app:startDestination="@+id/usersFragment">
 
-    <fragment
-        android:id="@+id/chatsFragment"
-        android:name="com.murat.chat.ui.chats.ChatsFragment"
-        android:label="fragment_chats"
-        tools:layout="@layout/fragment_chats" />
     <fragment
         android:id="@+id/authFragment"
         android:name="com.murat.chat.ui.auth.AuthFragment"
         android:label="fragment_auth"
         tools:layout="@layout/fragment_auth" />
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.murat.chat.ui.chat.ChatFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" />
+    <fragment
+        android:id="@+id/usersFragment"
+        android:name="com.murat.chat.ui.users.UsersFragment"
+        android:label="UsersFragment"
+        tools:layout="@layout/fragment_users"/>
 </navigation>

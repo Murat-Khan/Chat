@@ -46,8 +46,7 @@ class AuthFragment : Fragment() {
     private fun signInWithPhoneAuthCredential(credential: PhoneAuthCredential) {
         auth.signInWithCredential(credential)
             .addOnCompleteListener(requireActivity()) { task ->
-                if (task.isSuccessful) {
-                    saveUserData()
+                if (task.isSuccessful) { saveUserData()
                 } else {
                     showToast(task.exception?.message.toString())
 
